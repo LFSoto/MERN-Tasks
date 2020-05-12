@@ -15,6 +15,7 @@ import {
 } from "../../types/index";
 
 const TareaState = (props) => {
+  //State debe cambiar por el fetch al API
   const initialState = {
     tareas: [
       { id: 1, nombre: "Elegir Plataforma", estado: true, proyectoId: 1 },
